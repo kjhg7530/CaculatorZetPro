@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h4N-V0-y8p"/>
+                        <viewControllerLayoutGuide type="bottom" id="3M7-lG-eZy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.44999999999999962" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rhu-Td-7PD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cyL-3e-5ec">
+                                <rect key="frame" x="0.0" y="196" width="320" height="280"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="clv-Pc-eon">
+                                        <rect key="frame" x="80" y="209" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" red="0.33725491166114807" green="0.62352943420410156" blue="0.92941182851791382" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum0:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ctN-lx-XGI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4b-k4-NjC">
+                                        <rect key="frame" x="240" y="209" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="−">
+                                            <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSub:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="NBI-Q9-0d3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEi-z1-Hmg">
+                                        <rect key="frame" x="160" y="209" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="+">
+                                            <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnAdd:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="njh-Oy-jX0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mP-Gb-fWW">
+                                        <rect key="frame" x="0.0" y="145" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum1:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="elo-I8-Ljf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJ2-yc-CO4">
+                                        <rect key="frame" x="80" y="145" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum2:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="r7K-fU-f1b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIY-0W-l0h">
+                                        <rect key="frame" x="240" y="145" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="×">
+                                            <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnMul:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oef-mO-Iyv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07E-gu-zlw">
+                                        <rect key="frame" x="160" y="145" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum3:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7yn-nU-giE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9g-tw-9zv">
+                                        <rect key="frame" x="0.0" y="81" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum4:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dtn-hl-jB4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e52-u2-e6X">
+                                        <rect key="frame" x="80" y="81" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum5:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vRA-Zt-oc2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8N2-Ji-e2e">
+                                        <rect key="frame" x="240" y="81" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="÷">
+                                            <color key="titleColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnDiv:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d5A-zf-bUQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7e-4X-P1J">
+                                        <rect key="frame" x="160" y="81" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum6:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Vql-jU-9Rd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzf-7G-dUv">
+                                        <rect key="frame" x="80" y="17" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum8:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fIB-WW-PIR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdY-M8-KIm">
+                                        <rect key="frame" x="240" y="17" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="c">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnCancel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wSR-fa-RYr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgb-C7-z90">
+                                        <rect key="frame" x="160" y="17" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum9:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qv1-Di-xOA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTn-Ws-ULn">
+                                        <rect key="frame" x="0.0" y="17" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnNum7:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gzZ-bO-Jmz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY8-Fw-xe3">
+                                        <rect key="frame" x="0.0" y="209" width="80" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                        <state key="normal" title="∙">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnPoint:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h6d-Qo-xDS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.13" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12,345,678,900 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6r-3R-xxk">
+                                <rect key="frame" x="5" y="54" width="265" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <color key="textColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="123,456,789 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWt-E9-BTv">
+                                <rect key="frame" x="5" y="121" width="265" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <color key="textColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公里/秒" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voO-3l-2NQ">
+                                <rect key="frame" x="270" y="60" width="50" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公尺/秒" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SAa-jq-HYZ">
+                                <rect key="frame" x="270" y="129" width="50" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yqu-ys-E55">
+                                <rect key="frame" x="0.0" y="502" width="320" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlT-yl-blL">
+                                        <rect key="frame" x="0.0" y="40" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <state key="normal" title="長度">
+                                            <color key="titleColor" red="0.49803921580314636" green="0.49803921580314636" blue="0.49803921580314636" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnLength:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="UWU-Ig-6F1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d45-42-MTq">
+                                        <rect key="frame" x="128" y="40" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <state key="normal" title="重量">
+                                            <color key="titleColor" red="0.58823531866073608" green="0.58823531866073608" blue="0.59215688705444336" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnWeight:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Sfg-Ay-GuR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlP-yw-0Sy">
+                                        <rect key="frame" x="64" y="40" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <state key="normal" title="時間">
+                                            <color key="titleColor" red="0.58823531866073608" green="0.58823531866073608" blue="0.59215688705444336" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnTime:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="rWF-wB-rOZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LM-bf-bj7">
+                                        <rect key="frame" x="192" y="40" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <state key="normal" title="速度">
+                                            <color key="titleColor" red="0.58823531866073608" green="0.58823531866073608" blue="0.59215688705444336" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSpeed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Xv-2J-RBq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mze-zr-3PP">
+                                        <rect key="frame" x="256" y="40" width="64" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                        <state key="normal" title="匯率">
+                                            <color key="titleColor" red="0.58823531866073608" green="0.58823531866073608" blue="0.59215688705444336" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnExchangeRate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MGU-hJ-qNS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpS-ha-dGA">
+                                        <rect key="frame" x="80" y="7" width="33" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="timeGray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnTime:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="35s-IF-DOJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnV-zC-jvv">
+                                        <rect key="frame" x="143" y="5" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="scale-bigGray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnWeight:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="oto-TH-8iM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Amr-aI-h7n">
+                                        <rect key="frame" x="208" y="5" width="33" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="DashboardGray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSpeed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DKE-VC-HNK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xX2-tJ-5iC">
+                                        <rect key="frame" x="272" y="6" width="33" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="moneyGary.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnExchangeRate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="n0V-R2-oyR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fq-pS-zhY">
+                                        <rect key="frame" x="15" y="9" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="lengthBlue.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpq-ST-ofF">
+                                        <rect key="frame" x="15" y="9" width="35" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="lengthGray.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="disabled" image="lengthBlue.png"/>
+                                        <state key="selected" image="lengthBlue.png"/>
+                                        <state key="highlighted" image="lengthBlue.png"/>
+                                        <connections>
+                                            <action selector="btnLength:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lO0-z8-Z58"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTU-v4-fDd">
+                                <rect key="frame" x="10" y="25" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="info.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SDo-1c-CBp" kind="modal" id="vUC-fu-q1I"/>
+                                </connections>
+                            </button>
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ftm-NB-Dmd">
+                                <rect key="frame" x="0.0" y="-21" width="320" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="DXx-wI-AHY"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="BQD-Ce-6rr"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NeE-ac-WGz"/>
+                    <connections>
+                        <outlet property="imageExchangeRate" destination="xX2-tJ-5iC" id="wE4-oO-TM3"/>
+                        <outlet property="imageLength" destination="cpq-ST-ofF" id="xI0-23-bhn"/>
+                        <outlet property="imageSpeed" destination="Amr-aI-h7n" id="cfe-Sn-A8P"/>
+                        <outlet property="imageTime" destination="RpS-ha-dGA" id="Wtd-hg-AeZ"/>
+                        <outlet property="imageWeight" destination="wnV-zC-jvv" id="pPD-fb-NXJ"/>
+                        <outlet property="labelExchangeRate" destination="mze-zr-3PP" id="r4a-c7-QPT"/>
+                        <outlet property="labelLength" destination="PlT-yl-blL" id="KB1-ku-EMR"/>
+                        <outlet property="labelResult" destination="cWt-E9-BTv" id="qrf-d3-Re9"/>
+                        <outlet property="labelSpeed" destination="5LM-bf-bj7" id="Ksb-4g-ID2"/>
+                        <outlet property="labelTime" destination="IlP-yw-0Sy" id="u4v-Jd-lFH"/>
+                        <outlet property="labelTransResult" destination="b6r-3R-xxk" id="Nn0-V3-3So"/>
+                        <outlet property="labelUnitDst" destination="voO-3l-2NQ" id="Yrs-aL-kZN"/>
+                        <outlet property="labelUnitSrc" destination="SAa-jq-HYZ" id="UGM-aP-ASp"/>
+                        <outlet property="labelWeight" destination="d45-42-MTq" id="Ksf-21-hb3"/>
+                        <outlet property="showPickerView" destination="ftm-NB-Dmd" id="Z5P-bY-4uj"/>
+                        <outlet property="viewCalculate" destination="cyL-3e-5ec" id="Qkx-BS-nmd"/>
+                        <outlet property="viewTransform" destination="Yqu-ys-E55" id="aWG-i1-waj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="96"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="Rhl-Fj-FzD">
+            <objects>
+                <viewController id="SDo-1c-CBp" customClass="AboutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KD0-E7-Z5t"/>
+                        <viewControllerLayoutGuide type="bottom" id="0qI-kN-MSx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="exM-Kr-zOB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bid-bs-q8O">
+                                <rect key="frame" x="0.0" y="19" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="關於" id="4to-aI-6HW">
+                                        <barButtonItem key="leftBarButtonItem" title="back" id="e8h-GE-hME">
+                                            <connections>
+                                                <action selector="btnBack:" destination="SDo-1c-CBp" id="JjU-HG-edO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="由 ＸＸ，Shun_Ping 開發" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYI-cV-JRU">
+                                <rect key="frame" x="20" y="110" width="174" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <color key="textColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="發送意見" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Re9-6t-RIS">
+                                <rect key="frame" x="20" y="194" width="83" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVW-6g-5xg">
+                                <rect key="frame" x="20" y="156" width="242" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="http://caculatorzetpro.weebly.com">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnOpenWeb:" destination="SDo-1c-CBp" eventType="touchUpInside" id="4Db-6x-xVU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="使用條款:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWw-8e-NCZ">
+                                <rect key="frame" x="20" y="231" width="116" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ce1-bb-Dry">
+                                <rect key="frame" x="202" y="92" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="facebook.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnFaceBook:" destination="SDo-1c-CBp" eventType="touchUpInside" id="EwG-ji-OIc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CaculatorZet Pro " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7c6-be-Jl5">
+                                <rect key="frame" x="20" y="92" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oqr-7U-RgV">
+                                <rect key="frame" x="20" y="251" width="280" height="297"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">CaculatorZet Pro 服務條款
+歡迎使用 CaculatorZet Pro！一旦您使用我們的產品、軟體，即表示您同意遵守下列條款及細則，與任何不定時提供給您的政策、準則及更新條款，包括 (但不限於) 計劃政策和法律聲明 (以下統稱「條款」)。 我們未來有可能修訂本條款。 
+適當的行為
+您瞭解所有資訊、資料、文字、軟體、音樂、聲音、相片、圖片、影片、訊息或其他資料 (以下統稱「內容」)，均由該「內容」的原創者單方面擔負責任和義務。 我們保留預先篩選、標記、篩選、拒絕、修改或移動任何可經服務獲得之「內容」的權利 (但並無義務這樣做)。 
+
+軟體及自動更新
+您對我們所提供任何「軟體」之使用，將受此「條款」及「軟體」隨附之一般使用者合約中的條款及細則所約束。 我們「軟體」可能會自動回報版本號碼或其他診斷資訊，並可能自動下載升級至「軟體」以更新、強化和進一步發展 CaculatorZet Pro服務，包括提供錯誤修正、修補程式、增強的功能、缺少的外掛程式和新版本。
+
+關於使用與儲存之一般做法
+您同意 CaculatorZet Pro 不需為刪除或未儲存由 CaculatorZet Pro 服務維護或透過 CaculatorZet Pro 服務傳送之內容或其他通訊負責。
+
+個人非商業用途使用
+您同意不重製、複製、販賣、交易、轉賣或利用 CaculatorZet Pro 服務、CaculatorZet Pro 服務的使用或使用 CaculatorZet Pro 服務權限的任何部分，亦不將其用做任何商業用途，除非本「條款」中有其他明確規定，或經個別書面合約明確授權。 
+
+服務的修改 CaculatorZet Pro 保留可隨時修改或中斷，暫停或永久終止 CaculatorZet Pro服務 (或服務的任何部分) 之權利，而無需另行通知。 您同意我們不對您或任何第三方為修改、暫停和終止CaculatorZet Pro服務負責。 
+
+賠償
+您同意保護和賠償我們及其分公司、聯盟夥伴、主管、代理商、員工、廣告客戶、授權人、供應商和夥伴 (統稱「我們與其夥伴」)，使其免受因為您不當使用 我們的服務、違反條款或任何與使用我們服務的相關活動，抑或是任何與其相關的事宜，而導致任何第三方所提出的申訴 (包含任何性質的所有申訴、損失、直接和間接的損害、訴訟、審判、訴訟費用和律師費用)。 在這種情況下，我們將會提供您此類申訴、訴訟或動作的書面通知。 
+
+無保證條款  您明確瞭解並同意：
+a. 您必須自負使用 CaculatorZet Pro 服務的風險。 CaculatorZet Pro 服務是以「現狀」和「可用」的基礎下提供。 CaculatorZet Pro 與其夥伴在法律允許的極限內不做出任何明示及暗示的保證和條件，包括 (但不限於) 適售性、做某特殊用途之合適性及未侵權之保證。
+
+b. CaculatorZet Pro 與其夥伴不保證 (i) CaculatorZet Pro 服務符合您的需求；(ii) CaculatorZet Pro 服務不會中斷、即時、安全或不會發生錯誤；(iii) 使用 CaculatorZet Pro 服務所取得的結果是正確且可靠的；(iv) 任何產品、服務、資訊，或您透過 CaculatorZet Pro 服務所購買或取得的其他資料之品質會符合您的預期；(v) 匯率資料的可靠性且 (vi) 將更正軟體中的任一錯誤。
+
+c. 您同意並瞭解您是自願下載資料或使用 CaculatorZet Pro 服務來取得資料，並承擔所有因下載此類資料所造成的電腦系統或其他裝置傷害或資料遺失的風險。
+
+d. 您從 CaculatorZet Pro 或 CaculatorZet Pro 服務取得的任何口頭或書面建議或資訊，均不會得到任何在此條款中無明確表示的保證。 
+
+責任限制
+您明確瞭解並同意 CaculatorZet Pro 與其夥件不因下列原因對您負任何直接、間接、偶發、特例、必然或懲戒性的傷害負責任，包含 (但不限於) 因利益、善意、使用或資料遺失或其他無形損失所造成的損害 (即使 CaculatorZet Pro 與其夥伴已被告知這可能的傷害賠償)： (i) 使用或無法使用 CaculatorZet Pro 服務；(ii) 因任何從 CaculatorZet Pro 服務或經由其購買或獲得的產品、資料、資訊或服務，或經上列管道獲得的訊息或進行的交易而導致購買替代產品或服務的成本；(iii) 對您的傳輸或資料未經授權的使用或未經授權的變更；(iv) 第三方針對 CaculatorZet Pro 服務的言論或行為；(v) 任何其他和 CaculatorZet Pro 服務有關的事項。  
+
+排除及限制
+本合約中的任何條款都無意排除或限制任何法律不排除或限制的條件、保證、權利或責任。 部分法律管轄區禁止排除特定保證或條件，亦禁止限制或排除由疏忽、違反合約或違反暗示條款或偶發或必然損害的損失或損害責任。 因此，上述第十四條與十五條中，僅在您的法律轄區合法的限制才適用於您身上，而我們的責任限制在法律容許的最大限度。  
+無第三方受益人
+您同意除非本「條款」中明確規定，本「條款」無第三方受益人。
+
+一般資訊
+
+完整合約 
+本「條款」(包含任何不定時呈送給您的政策、規範或修訂，如「計劃政策」或「法律聲明」) 為您和 CaculatorZet Pro 間的合約，規範您在 CaculatorZet Pro 服務的使用，並凌駕任何先前您與 CaculatorZet Pro 之間關於使用 CaculatorZet Pro 服務的合約。當您使用或購買其他特定 CaculatorZet Pro 服務、相關服務、第三方內容或第三方軟體時，您可能必須遵守額外的條款及細則。法律及法庭的選擇。CaculatorZet Pro 未行使或主張本「條款」的任何權利或規定，並不構成放棄該權利或規定的事實。 如果使用本「條款」中的任何條款被法庭裁定無效，則雙方同意法庭應致力實施反映在條款中的意願，且其他條款仍然保有完整效力。   限制條例。您同意即使有規定相反的條例或法律，任何由使用 CaculatorZet Pro 服務或與本「條款」相關的事宜招致的申訴或活動目的必須在此種申訴或活動目的發起一 (1) 年內提出訴訟，否則即喪失權利。  在本「條款」中的條款標題僅供方便查閱之用，無任何法律或契約效用。
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncu-M3-mUm">
+                                <rect key="frame" x="258" y="92" width="48" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="twitter.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnTwitter:" destination="SDo-1c-CBp" eventType="touchUpInside" id="f1W-TL-68d"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="分享" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzB-YE-4Vr">
+                                <rect key="frame" x="266" y="69" width="37" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="15"/>
+                                <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YN6-gv-XzW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OWA-6U-agv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1217" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DashboardGray.png" width="40" height="40"/>
+        <image name="background.jpg" width="384" height="640"/>
+        <image name="facebook.png" width="60" height="60"/>
+        <image name="info.png" width="60" height="60"/>
+        <image name="lengthBlue.png" width="128" height="128"/>
+        <image name="lengthGray.png" width="128" height="128"/>
+        <image name="moneyGary.png" width="64" height="64"/>
+        <image name="scale-bigGray.png" width="58" height="60"/>
+        <image name="timeGray.png" width="128" height="128"/>
+        <image name="twitter.png" width="60" height="60"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

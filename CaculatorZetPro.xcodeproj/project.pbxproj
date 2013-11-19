@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330FDE531835C92000913D6B /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330FDE521835C92000913D6B /* AboutViewController.m */; };
+		330FDE551835C9DF00913D6B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330FDE541835C9DF00913D6B /* Social.framework */; };
+		330FDE571835CB6800913D6B /* shareImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 330FDE561835CB6800913D6B /* shareImage.jpg */; };
+		330FDE591835CB8400913D6B /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 330FDE581835CB8400913D6B /* twitter.png */; };
+		336C3B901832197800EE7F18 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B8F1832197800EE7F18 /* background.jpg */; };
+		336C3BA41832198C00EE7F18 /* Dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B931832198C00EE7F18 /* Dashboard.png */; };
+		336C3BA51832198C00EE7F18 /* DashboardBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B941832198C00EE7F18 /* DashboardBlue.png */; };
+		336C3BA61832198C00EE7F18 /* DashboardGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B951832198C00EE7F18 /* DashboardGray.png */; };
+		336C3BA71832198C00EE7F18 /* length.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B961832198C00EE7F18 /* length.png */; };
+		336C3BA81832198C00EE7F18 /* lengthBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B971832198C00EE7F18 /* lengthBlue.png */; };
+		336C3BA91832198C00EE7F18 /* lengthGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B981832198C00EE7F18 /* lengthGray.png */; };
+		336C3BAA1832198C00EE7F18 /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B991832198C00EE7F18 /* money.png */; };
+		336C3BAB1832198C00EE7F18 /* moneyBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B9A1832198C00EE7F18 /* moneyBlue.png */; };
+		336C3BAC1832198C00EE7F18 /* moneyGary.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B9B1832198C00EE7F18 /* moneyGary.png */; };
+		336C3BAD1832198C00EE7F18 /* scale-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B9C1832198C00EE7F18 /* scale-big.png */; };
+		336C3BAE1832198C00EE7F18 /* scale-bigBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B9D1832198C00EE7F18 /* scale-bigBlue.png */; };
+		336C3BAF1832198C00EE7F18 /* scale-bigGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B9E1832198C00EE7F18 /* scale-bigGray.png */; };
+		336C3BB01832198C00EE7F18 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3B9F1832198C00EE7F18 /* facebook.png */; };
+		336C3BB11832198C00EE7F18 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3BA01832198C00EE7F18 /* time.png */; };
+		336C3BB21832198C00EE7F18 /* timeBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3BA11832198C00EE7F18 /* timeBlue.png */; };
+		336C3BB31832198C00EE7F18 /* timeGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3BA21832198C00EE7F18 /* timeGray.png */; };
+		336C3BB718321ACE00EE7F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336C3BB618321ACE00EE7F18 /* Main.storyboard */; };
+		336C3BB918321B2E00EE7F18 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 336C3BB818321B2E00EE7F18 /* info.png */; };
+		D57D43EC183219220081B3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57D43EB183219220081B3A5 /* Foundation.framework */; };
+		D57D43EE183219230081B3A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57D43ED183219230081B3A5 /* CoreGraphics.framework */; };
+		D57D43F0183219230081B3A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57D43EF183219230081B3A5 /* UIKit.framework */; };
+		D57D43F6183219230081B3A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57D43F4183219230081B3A5 /* InfoPlist.strings */; };
+		D57D43F8183219230081B3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D43F7183219230081B3A5 /* main.m */; };
+		D57D43FC183219230081B3A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D43FB183219230081B3A5 /* AppDelegate.m */; };
+		D57D4402183219230081B3A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D4401183219230081B3A5 /* ViewController.m */; };
+		D57D4404183219230081B3A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57D4403183219230081B3A5 /* Images.xcassets */; };
+		D57D440B183219230081B3A5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57D440A183219230081B3A5 /* XCTest.framework */; };
+		D57D440C183219230081B3A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57D43EB183219220081B3A5 /* Foundation.framework */; };
+		D57D440D183219230081B3A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57D43EF183219230081B3A5 /* UIKit.framework */; };
+		D57D4415183219230081B3A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D57D4413183219230081B3A5 /* InfoPlist.strings */; };
+		D57D4417183219230081B3A5 /* CaculatorZetProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57D4416183219230081B3A5 /* CaculatorZetProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D57D440E183219230081B3A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57D43E0183219220081B3A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D57D43E7183219220081B3A5;
+			remoteInfo = CaculatorZetPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330FDE511835C92000913D6B /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		330FDE521835C92000913D6B /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		330FDE541835C9DF00913D6B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		330FDE561835CB6800913D6B /* shareImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shareImage.jpg; sourceTree = "<group>"; };
+		330FDE581835CB8400913D6B /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../twitter.png; sourceTree = "<group>"; };
+		336C3B8F1832197800EE7F18 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		336C3B931832198C00EE7F18 /* Dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dashboard.png; sourceTree = "<group>"; };
+		336C3B941832198C00EE7F18 /* DashboardBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DashboardBlue.png; sourceTree = "<group>"; };
+		336C3B951832198C00EE7F18 /* DashboardGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DashboardGray.png; sourceTree = "<group>"; };
+		336C3B961832198C00EE7F18 /* length.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = length.png; sourceTree = "<group>"; };
+		336C3B971832198C00EE7F18 /* lengthBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lengthBlue.png; sourceTree = "<group>"; };
+		336C3B981832198C00EE7F18 /* lengthGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lengthGray.png; sourceTree = "<group>"; };
+		336C3B991832198C00EE7F18 /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		336C3B9A1832198C00EE7F18 /* moneyBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyBlue.png; sourceTree = "<group>"; };
+		336C3B9B1832198C00EE7F18 /* moneyGary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyGary.png; sourceTree = "<group>"; };
+		336C3B9C1832198C00EE7F18 /* scale-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scale-big.png"; sourceTree = "<group>"; };
+		336C3B9D1832198C00EE7F18 /* scale-bigBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scale-bigBlue.png"; sourceTree = "<group>"; };
+		336C3B9E1832198C00EE7F18 /* scale-bigGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scale-bigGray.png"; sourceTree = "<group>"; };
+		336C3B9F1832198C00EE7F18 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		336C3BA01832198C00EE7F18 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		336C3BA11832198C00EE7F18 /* timeBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeBlue.png; sourceTree = "<group>"; };
+		336C3BA21832198C00EE7F18 /* timeGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeGray.png; sourceTree = "<group>"; };
+		336C3BB618321ACE00EE7F18 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		336C3BB818321B2E00EE7F18 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = ../info.png; sourceTree = "<group>"; };
+		D57D43E8183219220081B3A5 /* CaculatorZetPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaculatorZetPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57D43EB183219220081B3A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D57D43ED183219230081B3A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D57D43EF183219230081B3A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D57D43F3183219230081B3A5 /* CaculatorZetPro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaculatorZetPro-Info.plist"; sourceTree = "<group>"; };
+		D57D43F5183219230081B3A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D57D43F7183219230081B3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D57D43F9183219230081B3A5 /* CaculatorZetPro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CaculatorZetPro-Prefix.pch"; sourceTree = "<group>"; };
+		D57D43FA183219230081B3A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D57D43FB183219230081B3A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D57D4400183219230081B3A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D57D4401183219230081B3A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D57D4403183219230081B3A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D57D4409183219230081B3A5 /* CaculatorZetProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaculatorZetProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57D440A183219230081B3A5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D57D4412183219230081B3A5 /* CaculatorZetProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CaculatorZetProTests-Info.plist"; sourceTree = "<group>"; };
+		D57D4414183219230081B3A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D57D4416183219230081B3A5 /* CaculatorZetProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorZetProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57D43E5183219220081B3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330FDE551835C9DF00913D6B /* Social.framework in Frameworks */,
+				D57D43EE183219230081B3A5 /* CoreGraphics.framework in Frameworks */,
+				D57D43F0183219230081B3A5 /* UIKit.framework in Frameworks */,
+				D57D43EC183219220081B3A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57D4406183219230081B3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57D440B183219230081B3A5 /* XCTest.framework in Frameworks */,
+				D57D440D183219230081B3A5 /* UIKit.framework in Frameworks */,
+				D57D440C183219230081B3A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336C3B911832198C00EE7F18 /* icon set */ = {
+			isa = PBXGroup;
+			children = (
+				336C3BB818321B2E00EE7F18 /* info.png */,
+				336C3B931832198C00EE7F18 /* Dashboard.png */,
+				336C3B941832198C00EE7F18 /* DashboardBlue.png */,
+				336C3B951832198C00EE7F18 /* DashboardGray.png */,
+				336C3B961832198C00EE7F18 /* length.png */,
+				336C3B971832198C00EE7F18 /* lengthBlue.png */,
+				336C3B981832198C00EE7F18 /* lengthGray.png */,
+				336C3B991832198C00EE7F18 /* money.png */,
+				336C3B9A1832198C00EE7F18 /* moneyBlue.png */,
+				336C3B9B1832198C00EE7F18 /* moneyGary.png */,
+				336C3B9C1832198C00EE7F18 /* scale-big.png */,
+				336C3B9D1832198C00EE7F18 /* scale-bigBlue.png */,
+				336C3B9E1832198C00EE7F18 /* scale-bigGray.png */,
+				336C3B9F1832198C00EE7F18 /* facebook.png */,
+				330FDE581835CB8400913D6B /* twitter.png */,
+				336C3BA01832198C00EE7F18 /* time.png */,
+				336C3BA11832198C00EE7F18 /* timeBlue.png */,
+				336C3BA21832198C00EE7F18 /* timeGray.png */,
+			);
+			path = "icon set";
+			sourceTree = "<group>";
+		};
+		D57D43DF183219220081B3A5 = {
+			isa = PBXGroup;
+			children = (
+				D57D43F1183219230081B3A5 /* CaculatorZetPro */,
+				D57D4410183219230081B3A5 /* CaculatorZetProTests */,
+				D57D43EA183219220081B3A5 /* Frameworks */,
+				D57D43E9183219220081B3A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57D43E9183219220081B3A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57D43E8183219220081B3A5 /* CaculatorZetPro.app */,
+				D57D4409183219230081B3A5 /* CaculatorZetProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57D43EA183219220081B3A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				330FDE541835C9DF00913D6B /* Social.framework */,
+				D57D43EB183219220081B3A5 /* Foundation.framework */,
+				D57D43ED183219230081B3A5 /* CoreGraphics.framework */,
+				D57D43EF183219230081B3A5 /* UIKit.framework */,
+				D57D440A183219230081B3A5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57D43F1183219230081B3A5 /* CaculatorZetPro */ = {
+			isa = PBXGroup;
+			children = (
+				D57D43FA183219230081B3A5 /* AppDelegate.h */,
+				D57D43FB183219230081B3A5 /* AppDelegate.m */,
+				336C3BB618321ACE00EE7F18 /* Main.storyboard */,
+				D57D4400183219230081B3A5 /* ViewController.h */,
+				D57D4401183219230081B3A5 /* ViewController.m */,
+				330FDE511835C92000913D6B /* AboutViewController.h */,
+				330FDE521835C92000913D6B /* AboutViewController.m */,
+				D57D4403183219230081B3A5 /* Images.xcassets */,
+				336C3B8F1832197800EE7F18 /* background.jpg */,
+				330FDE561835CB6800913D6B /* shareImage.jpg */,
+				336C3B911832198C00EE7F18 /* icon set */,
+				D57D43F2183219230081B3A5 /* Supporting Files */,
+			);
+			path = CaculatorZetPro;
+			sourceTree = "<group>";
+		};
+		D57D43F2183219230081B3A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57D43F3183219230081B3A5 /* CaculatorZetPro-Info.plist */,
+				D57D43F4183219230081B3A5 /* InfoPlist.strings */,
+				D57D43F7183219230081B3A5 /* main.m */,
+				D57D43F9183219230081B3A5 /* CaculatorZetPro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D57D4410183219230081B3A5 /* CaculatorZetProTests */ = {
+			isa = PBXGroup;
+			children = (
+				D57D4416183219230081B3A5 /* CaculatorZetProTests.m */,
+				D57D4411183219230081B3A5 /* Supporting Files */,
+			);
+			path = CaculatorZetProTests;
+			sourceTree = "<group>";
+		};
+		D57D4411183219230081B3A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D57D4412183219230081B3A5 /* CaculatorZetProTests-Info.plist */,
+				D57D4413183219230081B3A5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57D43E7183219220081B3A5 /* CaculatorZetPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57D441A183219230081B3A5 /* Build configuration list for PBXNativeTarget "CaculatorZetPro" */;
+			buildPhases = (
+				D57D43E4183219220081B3A5 /* Sources */,
+				D57D43E5183219220081B3A5 /* Frameworks */,
+				D57D43E6183219220081B3A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaculatorZetPro;
+			productName = CaculatorZetPro;
+			productReference = D57D43E8183219220081B3A5 /* CaculatorZetPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D57D4408183219230081B3A5 /* CaculatorZetProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57D441D183219230081B3A5 /* Build configuration list for PBXNativeTarget "CaculatorZetProTests" */;
+			buildPhases = (
+				D57D4405183219230081B3A5 /* Sources */,
+				D57D4406183219230081B3A5 /* Frameworks */,
+				D57D4407183219230081B3A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D57D440F183219230081B3A5 /* PBXTargetDependency */,
+			);
+			name = CaculatorZetProTests;
+			productName = CaculatorZetProTests;
+			productReference = D57D4409183219230081B3A5 /* CaculatorZetProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57D43E0183219220081B3A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Think Better";
+				TargetAttributes = {
+					D57D43E7183219220081B3A5 = {
+						DevelopmentTeam = 38MK39CSHS;
+					};
+					D57D4408183219230081B3A5 = {
+						TestTargetID = D57D43E7183219220081B3A5;
+					};
+				};
+			};
+			buildConfigurationList = D57D43E3183219220081B3A5 /* Build configuration list for PBXProject "CaculatorZetPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57D43DF183219220081B3A5;
+			productRefGroup = D57D43E9183219220081B3A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57D43E7183219220081B3A5 /* CaculatorZetPro */,
+				D57D4408183219230081B3A5 /* CaculatorZetProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57D43E6183219220081B3A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330FDE591835CB8400913D6B /* twitter.png in Resources */,
+				336C3BB718321ACE00EE7F18 /* Main.storyboard in Resources */,
+				336C3BA71832198C00EE7F18 /* length.png in Resources */,
+				D57D4404183219230081B3A5 /* Images.xcassets in Resources */,
+				336C3BAE1832198C00EE7F18 /* scale-bigBlue.png in Resources */,
+				336C3BAF1832198C00EE7F18 /* scale-bigGray.png in Resources */,
+				336C3BA41832198C00EE7F18 /* Dashboard.png in Resources */,
+				336C3BB21832198C00EE7F18 /* timeBlue.png in Resources */,
+				330FDE571835CB6800913D6B /* shareImage.jpg in Resources */,
+				336C3B901832197800EE7F18 /* background.jpg in Resources */,
+				336C3BB918321B2E00EE7F18 /* info.png in Resources */,
+				336C3BAB1832198C00EE7F18 /* moneyBlue.png in Resources */,
+				D57D43F6183219230081B3A5 /* InfoPlist.strings in Resources */,
+				336C3BA91832198C00EE7F18 /* lengthGray.png in Resources */,
+				336C3BB01832198C00EE7F18 /* facebook.png in Resources */,
+				336C3BA51832198C00EE7F18 /* DashboardBlue.png in Resources */,
+				336C3BB11832198C00EE7F18 /* time.png in Resources */,
+				336C3BAA1832198C00EE7F18 /* money.png in Resources */,
+				336C3BAD1832198C00EE7F18 /* scale-big.png in Resources */,
+				336C3BAC1832198C00EE7F18 /* moneyGary.png in Resources */,
+				336C3BA61832198C00EE7F18 /* DashboardGray.png in Resources */,
+				336C3BA81832198C00EE7F18 /* lengthBlue.png in Resources */,
+				336C3BB31832198C00EE7F18 /* timeGray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57D4407183219230081B3A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57D4415183219230081B3A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57D43E4183219220081B3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57D4402183219230081B3A5 /* ViewController.m in Sources */,
+				D57D43FC183219230081B3A5 /* AppDelegate.m in Sources */,
+				330FDE531835C92000913D6B /* AboutViewController.m in Sources */,
+				D57D43F8183219230081B3A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57D4405183219230081B3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57D4417183219230081B3A5 /* CaculatorZetProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D57D440F183219230081B3A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D57D43E7183219220081B3A5 /* CaculatorZetPro */;
+			targetProxy = D57D440E183219230081B3A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D57D43F4183219230081B3A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57D43F5183219230081B3A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D57D4413183219230081B3A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D57D4414183219230081B3A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D57D4418183219230081B3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D57D4419183219230081B3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D57D441B183219230081B3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaculatorZetPro/CaculatorZetPro-Prefix.pch";
+				INFOPLIST_FILE = "CaculatorZetPro/CaculatorZetPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D57D441C183219230081B3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaculatorZetPro/CaculatorZetPro-Prefix.pch";
+				INFOPLIST_FILE = "CaculatorZetPro/CaculatorZetPro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D57D441E183219230081B3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaculatorZetPro.app/CaculatorZetPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaculatorZetPro/CaculatorZetPro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CaculatorZetProTests/CaculatorZetProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D57D441F183219230081B3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CaculatorZetPro.app/CaculatorZetPro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaculatorZetPro/CaculatorZetPro-Prefix.pch";
+				INFOPLIST_FILE = "CaculatorZetProTests/CaculatorZetProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57D43E3183219220081B3A5 /* Build configuration list for PBXProject "CaculatorZetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57D4418183219230081B3A5 /* Debug */,
+				D57D4419183219230081B3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57D441A183219230081B3A5 /* Build configuration list for PBXNativeTarget "CaculatorZetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57D441B183219230081B3A5 /* Debug */,
+				D57D441C183219230081B3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57D441D183219230081B3A5 /* Build configuration list for PBXNativeTarget "CaculatorZetProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57D441E183219230081B3A5 /* Debug */,
+				D57D441F183219230081B3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D57D43E0183219220081B3A5 /* Project object */;
+}
